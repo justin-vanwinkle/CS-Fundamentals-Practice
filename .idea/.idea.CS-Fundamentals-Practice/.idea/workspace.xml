@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c61f180e-fd5b-4e6f-af10-567f7397b3ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Sorting/BubbleSorter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/riderModule.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS-Fundamentals-Practice.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CS-Fundamentals-Practice.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting/BubbleSort.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/BubbleSorter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/BubbleSorter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/SortingTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/SortingTests.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,15 +18,24 @@
       <file leaf-file-name="BubbleSorter.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="60">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
               <folding>
-                <marker date="1531430837055" expanded="true" signature="32:760" ph="{...}" />
-                <marker date="1531430837055" expanded="true" signature="92:758" ph="{...}" />
-                <marker date="1531430837055" expanded="true" signature="133:752" ph="{...}" />
-                <marker date="1531430837055" expanded="true" signature="294:682" ph="{...}" />
-                <marker date="1531430837055" expanded="true" signature="423:664" ph="{...}" />
+                <marker date="1531448096850" expanded="true" signature="32:1002" ph="{...}" />
+                <marker date="1531448096850" expanded="true" signature="92:1000" ph="{...}" />
+                <marker date="1531448096850" expanded="true" signature="133:994" ph="{...}" />
+                <marker date="1531448096850" expanded="true" signature="459:924" ph="{...}" />
+                <marker date="1531448096850" expanded="true" signature="588:906" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/7c/024a7987/Array.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -37,13 +43,13 @@
       <file leaf-file-name="SortingTests.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/SortingTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="180">
+              <caret line="16" selection-start-line="14" selection-end-line="16" />
               <folding>
-                <marker date="1531430606692" expanded="false" signature="6:112" ph="..." />
-                <marker date="1531430606692" expanded="true" signature="129:454" ph="{...}" />
-                <marker date="1531430606692" expanded="true" signature="161:452" ph="{...}" />
-                <marker date="1531430606692" expanded="true" signature="288:446" ph="{...}" />
+                <marker date="1531448201483" expanded="false" signature="6:112" ph="..." />
+                <marker date="1531448201483" expanded="true" signature="129:485" ph="{...}" />
+                <marker date="1531448201483" expanded="true" signature="161:483" ph="{...}" />
+                <marker date="1531448201483" expanded="true" signature="221:468" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -56,8 +62,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/f7/2bbc12c4/IComparable`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tests/SortingTests.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/SortingTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/7c/024a7987/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -65,8 +72,8 @@
         <option value="$PROJECT_DIR$/Sorting/Class1.cs" />
         <option value="$PROJECT_DIR$/Sorting/BubbleSort.cs" />
         <option value="$PROJECT_DIR$/Tests/UnitTest1.cs" />
-        <option value="$PROJECT_DIR$/Tests/SortingTests.cs" />
         <option value="$PROJECT_DIR$/Sorting/BubbleSorter.cs" />
+        <option value="$PROJECT_DIR$/Tests/SortingTests.cs" />
       </list>
     </option>
   </component>
@@ -80,9 +87,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
     <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -101,6 +107,11 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="CS-Fundamentals-Practice (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Sorting" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CS-Fundamentals-Practice (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Tests" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -139,12 +150,12 @@
       <updated>1531428595664</updated>
       <workItem from="1531428596995" duration="1913000" />
       <workItem from="1531430532706" duration="158000" />
-      <workItem from="1531430749952" duration="88000" />
+      <workItem from="1531430749952" duration="4231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2159000" />
+    <option name="totallyTimeSpent" value="6302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -156,19 +167,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Unit Tests" order="7" visible="true" weight="0.32805908" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" visible="true" weight="0.32785088" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.44409284" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4616228" />
       <window_info anchor="bottom" id="NuGet" order="7" weight="0.32911393" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25506938" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="7" />
       <window_info anchor="right" id="Database" order="3" />
@@ -193,14 +204,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Tests/SortingTests.cs</url>
-          <line>16</line>
-          <properties documentPath="$PROJECT_DIR$/Tests/UnitTest1.cs" initialLine="15" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -209,11 +213,11 @@
         <state relative-caret-position="405">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <marker date="1531430837055" expanded="true" signature="32:760" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="92:758" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="133:752" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="294:682" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="423:664" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="32:1002" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="92:1000" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="133:994" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="459:924" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="588:906" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -223,10 +227,10 @@
         <state relative-caret-position="255">
           <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
           <folding>
-            <marker date="1531430606692" expanded="false" signature="6:112" ph="..." />
-            <marker date="1531430606692" expanded="true" signature="129:454" ph="{...}" />
-            <marker date="1531430606692" expanded="true" signature="161:452" ph="{...}" />
-            <marker date="1531430606692" expanded="true" signature="288:446" ph="{...}" />
+            <marker date="1531448201483" expanded="false" signature="6:112" ph="..." />
+            <marker date="1531448201483" expanded="true" signature="129:485" ph="{...}" />
+            <marker date="1531448201483" expanded="true" signature="161:483" ph="{...}" />
+            <marker date="1531448201483" expanded="true" signature="221:468" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -236,11 +240,11 @@
         <state relative-caret-position="405">
           <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <marker date="1531430837055" expanded="true" signature="32:760" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="92:758" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="133:752" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="294:682" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="423:664" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="32:1002" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="92:1000" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="133:994" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="459:924" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="588:906" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -250,10 +254,10 @@
         <state relative-caret-position="195">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
-            <marker date="1531430606692" expanded="false" signature="6:112" ph="..." />
-            <marker date="1531430606692" expanded="true" signature="129:454" ph="{...}" />
-            <marker date="1531430606692" expanded="true" signature="161:452" ph="{...}" />
-            <marker date="1531430606692" expanded="true" signature="288:446" ph="{...}" />
+            <marker date="1531448201483" expanded="false" signature="6:112" ph="..." />
+            <marker date="1531448201483" expanded="true" signature="129:485" ph="{...}" />
+            <marker date="1531448201483" expanded="true" signature="161:483" ph="{...}" />
+            <marker date="1531448201483" expanded="true" signature="221:468" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -265,29 +269,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/7c/024a7987/Array.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/SortingTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="14" selection-end-line="16" />
           <folding>
-            <marker date="1531430606692" expanded="false" signature="6:112" ph="..." />
-            <marker date="1531430606692" expanded="true" signature="129:454" ph="{...}" />
-            <marker date="1531430606692" expanded="true" signature="161:452" ph="{...}" />
-            <marker date="1531430606692" expanded="true" signature="288:446" ph="{...}" />
+            <marker date="1531448201483" expanded="false" signature="6:112" ph="..." />
+            <marker date="1531448201483" expanded="true" signature="129:485" ph="{...}" />
+            <marker date="1531448201483" expanded="true" signature="161:483" ph="{...}" />
+            <marker date="1531448201483" expanded="true" signature="221:468" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="60">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <marker date="1531430837055" expanded="true" signature="32:760" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="92:758" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="133:752" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="294:682" ph="{...}" />
-            <marker date="1531430837055" expanded="true" signature="423:664" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="32:1002" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="92:1000" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="133:994" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="459:924" ph="{...}" />
+            <marker date="1531448096850" expanded="true" signature="588:906" ph="{...}" />
           </folding>
         </state>
       </provider>
