@@ -7,6 +7,21 @@
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="CS-Fundamentals-Practice.sln" t="IncludeFlat" />
+      <e p="DataStructures" t="IncludeRecursive">
+        <e p="DataStructures.csproj" t="IncludeRecursive" />
+        <e p="LinkedList" t="Include">
+          <e p="LinkedList.cs" t="Include" />
+          <e p="LinkedListNode.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="DataStructures.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Sorting" t="IncludeRecursive">
         <e p="BubbleSorter.cs" t="Include" />
         <e p="Sorting.csproj" t="IncludeRecursive" />

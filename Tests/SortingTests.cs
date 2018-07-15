@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
 using FluentAssertions;
 using Sorting;
@@ -19,5 +20,11 @@ namespace Tests
 
         }
         
+        [Fact]
+        public void Placeholder()
+        {
+            var x = new LinkedList<int>();
+            
+        }
     }
 }
