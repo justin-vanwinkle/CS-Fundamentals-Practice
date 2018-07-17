@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_CS-Fundamentals-Practice.-1318160565.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_CS-Fundamentals-Practice.-1318160565.00" t="ExcludeRecursive" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
     <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.3.1/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
@@ -9,9 +9,8 @@
       <e p="CS-Fundamentals-Practice.sln" t="IncludeFlat" />
       <e p="DataStructures" t="IncludeRecursive">
         <e p="DataStructures.csproj" t="IncludeRecursive" />
-        <e p="LinkedList" t="Include">
-          <e p="LinkedList.cs" t="Include" />
-          <e p="LinkedListNode.cs" t="Include" />
+        <e p="LinkedLists" t="Include">
+          <e p="DoubleLinkedList.cs" t="Include" />
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -35,7 +34,14 @@
         </e>
       </e>
       <e p="Tests" t="IncludeRecursive">
-        <e p="SortingTests.cs" t="Include" />
+        <e p="Algorithms" t="Include">
+          <e p="SortingTests.cs" t="Include" />
+        </e>
+        <e p="DataStructures" t="Include">
+          <e p="LinkedLists" t="Include">
+            <e p="DoubleLinkedList.cs" t="Include" />
+          </e>
+        </e>
         <e p="Tests.csproj" t="IncludeRecursive" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">

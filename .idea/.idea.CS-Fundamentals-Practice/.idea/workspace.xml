@@ -2,57 +2,100 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c61f180e-fd5b-4e6f-af10-567f7397b3ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedListNode.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/DataStructures/LinkedLists/DoubleLinkedList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CS-Fundamentals-Practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS-Fundamentals-Practice.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CS-Fundamentals-Practice.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/SortingTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/SortingTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinkedLists/DoubleLinkedList.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedListNode.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/SortingTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Algorithms/SortingTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Tests.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="732940458">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="2493" />
+          <entry key="csproj" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="2493" />
+          <entry key="Csproj" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="2" />
+          <entry key="csproj" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="2" />
+          <entry key="Csproj" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LinkedList.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataStructures/LinkedLists/DoubleLinkedList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="310">
+              <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
               <folding>
-                <marker date="1531626116796" expanded="true" signature="76:422" ph="{...}" />
-                <marker date="1531626116796" expanded="true" signature="109:414" ph="{...}" />
-                <marker date="1531626116796" expanded="true" signature="204:262" ph="{...}" />
-                <marker date="1531626116796" expanded="true" signature="300:407" ph="{...}" />
-                <marker date="1531626116796" expanded="true" signature="326:397" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="6:111" ph="..." />
+                <marker date="1531796420641" expanded="true" signature="148:4514" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="191:541" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="401:433" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="479:526" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="583:4512" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="921:1490" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="971:1060" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="1077:1446" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="1552:1959" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="1590:1679" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="1696:1927" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="2061:3113" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="2104:2156" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="2207:2270" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="2287:3103" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="2363:3063" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="2427:2781" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="2825:2986" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="3222:4274" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="3265:3317" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="3368:3430" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="3447:4252" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="3523:4212" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="3608:3950" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="3994:4155" ph="{...}" />
+                <marker date="1531796420641" expanded="true" signature="4332:4506" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListNode.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList/LinkedListNode.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/Algorithms/SortingTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-              <folding>
-                <marker date="1531625382555" expanded="true" signature="35:400" ph="{...}" />
-                <marker date="1531625382555" expanded="true" signature="72:398" ph="{...}" />
-                <marker date="1531625382555" expanded="true" signature="264:296" ph="{...}" />
-                <marker date="1531625382555" expanded="true" signature="336:383" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortingTests.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/SortingTests.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="15">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
               <folding>
                 <marker date="1531623546558" expanded="true" signature="6:146" ph="..." />
                 <marker date="1531623546558" expanded="true" signature="163:644" ph="{...}" />
@@ -64,38 +107,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedList`1.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6334BCB-E40E-4C4D-9DCC-A52ECD2C3D6A/89/58d4c45e/LinkedList`1.cs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/Tests.csproj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="340" column="15" selection-start-line="340" selection-start-column="15" selection-end-line="340" selection-end-column="15" />
+            <state relative-caret-position="210">
+              <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkedListNode`1.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6334BCB-E40E-4C4D-9DCC-A52ECD2C3D6A/ca/a800c33c/LinkedListNode`1.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/DataStructures/LinkedLists/DoubleLinkedList.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            <state relative-caret-position="2175">
+              <caret line="145" column="39" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
+              <folding>
+                <marker date="1531796452845" expanded="true" signature="6:104" ph="..." />
+                <marker date="1531796452845" expanded="true" signature="136:4236" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="167:4234" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="228:708" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="362:403" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="771:1250" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="905:946" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="1328:1764" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="1465:1506" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="1595:1636" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="1841:2276" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="1978:2019" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="2108:2149" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="2344:3254" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="2480:2521" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="2589:2630" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="2701:2742" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="3315:4226" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="3451:3492" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="3560:3601" ph="{...}" />
+                <marker date="1531796452845" expanded="true" signature="3672:3713" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>= 0</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/f7/2bbc12c4/IComparable`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Tests/SortingTests.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/DataStructures/LinkedList/LinkedListNode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6334BCB-E40E-4C4D-9DCC-A52ECD2C3D6A/ca/a800c33c/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/7c/024a7987/Array.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6334BCB-E40E-4C4D-9DCC-A52ECD2C3D6A/89/58d4c45e/LinkedList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/DataStructures/LinkedLists/DoubleLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6334BCB-E40E-4C4D-9DCC-A52ECD2C3D6A/89/58d4c45e/LinkedList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Tests/Algorithms/SortingTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataStructures/LinkedLists/DoubleLinkedList.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -109,6 +177,11 @@
         <option value="$PROJECT_DIR$/DataStructures/LinkedList.cs" />
         <option value="$PROJECT_DIR$/DataStructures/LinkedList/LinkedListNode.cs" />
         <option value="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.cs" />
+        <option value="$PROJECT_DIR$/DataStructures/LinkedLists/LinkedListNode.cs" />
+        <option value="$PROJECT_DIR$/Tests/DataStructures/LinkedLists.cs" />
+        <option value="$PROJECT_DIR$/Tests/Tests.csproj" />
+        <option value="$PROJECT_DIR$/DataStructures/LinkedLists/DoubleLinkedList.cs" />
+        <option value="$PROJECT_DIR$/Tests/DataStructures/LinkedLists/DoubleLinkedList.cs" />
       </list>
     </option>
   </component>
@@ -118,11 +191,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="956" />
+    <option name="width" value="1920" />
     <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -131,39 +201,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CS-Fundamentals-Practice (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS-Fundamentals-Practice" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CS-Fundamentals-Practice (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="DataStructures" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS-Fundamentals-Practice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DataStructures" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CS-Fundamentals-Practice (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="DataStructures" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="LinkedList" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS-Fundamentals-Practice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DataStructures" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LinkedLists" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
-              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="CS-Fundamentals-Practice (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
-              <item name="Tests" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS-Fundamentals-Practice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS-Fundamentals-Practice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Algorithms" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS-Fundamentals-Practice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DataStructures" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CS-Fundamentals-Practice" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Tests" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="DataStructures" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="LinkedLists" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
+        <option name="show-all-files" value="false" />
       </pane>
+      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../switchboard/cloud-support/cloud-support.sln" />
@@ -193,12 +282,14 @@
       <workItem from="1531428596995" duration="1913000" />
       <workItem from="1531430532706" duration="158000" />
       <workItem from="1531430749952" duration="6765000" />
-      <workItem from="1531623213837" duration="2910000" />
+      <workItem from="1531623213837" duration="4880000" />
+      <workItem from="1531747315279" duration="18000" />
+      <workItem from="1531773810874" duration="13906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11746000" />
+    <option name="totallyTimeSpent" value="27640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -211,226 +302,160 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1044" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="bottom" id="Unit Tests" order="10" weight="0.32785088" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4616228" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32911393" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49898168" visible="true" weight="0.1339381" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" id="Structure" order="1" sideWeight="0.50101835" side_tool="true" visible="true" weight="0.1339381" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978904" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49512988" visible="true" weight="0.14247599" />
+      <window_info id="Structure" order="1" sideWeight="0.5048701" side_tool="true" visible="true" weight="0.14247599" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.4994664" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978904" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32911393" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Unit Tests" order="10" sideWeight="0.4994664" visible="true" weight="0.32677597" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49893278" weight="0.46120217" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Build" order="13" weight="0.32896176" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5010672" side_tool="true" weight="0.47978142" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="13" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/f7/2bbc12c4/IComparable`1.cs" />
     <entry file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <marker date="1531448096850" expanded="true" signature="92:1000" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="133:994" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="459:924" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="588:906" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/7c/024a7987/Array.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6334BCB-E40E-4C4D-9DCC-A52ECD2C3D6A/ca/a800c33c/LinkedListNode`1.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/7c/024a7987/Array.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A2F7993F-95A6-4AA7-A584-5A6ED8316D05/cf/fd342bc6/DecompressionHandler.cs" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EB9A3C4A-6D29-4139-81F8-56F9DFFD07BF/cd/2baa099c/StringDictionaryWrapper.cs" />
+    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedLists/LinkedListNode.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/SortingTests.cs">
+    <entry file="file://$PROJECT_DIR$/Tests/Tests.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="16" selection-start-line="14" selection-end-line="16" />
-          <folding>
-            <marker date="1531623546558" expanded="true" signature="6:146" ph="..." />
-            <marker date="1531623546558" expanded="true" signature="163:644" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="195:642" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="255:502" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="560:636" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <marker date="1531626116796" expanded="true" signature="76:422" ph="{...}" />
-            <marker date="1531626116796" expanded="true" signature="109:414" ph="{...}" />
-            <marker date="1531626116796" expanded="true" signature="204:262" ph="{...}" />
-            <marker date="1531626116796" expanded="true" signature="300:407" ph="{...}" />
-            <marker date="1531626116796" expanded="true" signature="326:397" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <marker date="1531448096850" expanded="true" signature="92:1000" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="133:994" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="459:924" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="588:906" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/SortingTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding>
-            <marker date="1531623546558" expanded="true" signature="6:146" ph="..." />
-            <marker date="1531623546558" expanded="true" signature="163:644" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="195:642" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="255:502" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="560:636" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <marker date="1531448096850" expanded="true" signature="92:1000" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="133:994" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="459:924" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="588:906" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/SortingTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <marker date="1531623546558" expanded="true" signature="6:146" ph="..." />
-            <marker date="1531623546558" expanded="true" signature="163:644" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="195:642" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="255:502" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="560:636" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/f7/2bbc12c4/IComparable`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B225D293-9AED-4212-8FBE-32059E400026/7c/024a7987/Array.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sorting/BubbleSorter.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <marker date="1531448096850" expanded="true" signature="92:1000" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="133:994" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="459:924" ph="{...}" />
-            <marker date="1531448096850" expanded="true" signature="588:906" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/SortingTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <marker date="1531623546558" expanded="true" signature="6:146" ph="..." />
-            <marker date="1531623546558" expanded="true" signature="163:644" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="195:642" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="255:502" ph="{...}" />
-            <marker date="1531623546558" expanded="true" signature="560:636" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6334BCB-E40E-4C4D-9DCC-A52ECD2C3D6A/ca/a800c33c/LinkedListNode`1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        <state relative-caret-position="210">
+          <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E6334BCB-E40E-4C4D-9DCC-A52ECD2C3D6A/89/58d4c45e/LinkedList`1.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="340" column="15" selection-start-line="340" selection-start-column="15" selection-end-line="340" selection-end-column="15" />
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-end-line="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList/LinkedListNode.cs">
+    <entry file="file://$PROJECT_DIR$/Tests/Algorithms/SortingTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        <state relative-caret-position="15">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
           <folding>
-            <marker date="1531625382555" expanded="true" signature="35:400" ph="{...}" />
-            <marker date="1531625382555" expanded="true" signature="72:398" ph="{...}" />
-            <marker date="1531625382555" expanded="true" signature="264:296" ph="{...}" />
-            <marker date="1531625382555" expanded="true" signature="336:383" ph="{...}" />
+            <marker date="1531623546558" expanded="true" signature="6:146" ph="..." />
+            <marker date="1531623546558" expanded="true" signature="163:644" ph="{...}" />
+            <marker date="1531623546558" expanded="true" signature="195:642" ph="{...}" />
+            <marker date="1531623546558" expanded="true" signature="255:502" ph="{...}" />
+            <marker date="1531623546558" expanded="true" signature="560:636" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.cs">
+    <entry file="file://$PROJECT_DIR$/DataStructures/LinkedLists/DoubleLinkedList.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="310">
+          <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
           <folding>
-            <marker date="1531626116796" expanded="true" signature="76:422" ph="{...}" />
-            <marker date="1531626116796" expanded="true" signature="109:414" ph="{...}" />
-            <marker date="1531626116796" expanded="true" signature="204:262" ph="{...}" />
-            <marker date="1531626116796" expanded="true" signature="300:407" ph="{...}" />
-            <marker date="1531626116796" expanded="true" signature="326:397" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="6:111" ph="..." />
+            <marker date="1531796420641" expanded="true" signature="148:4514" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="191:541" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="401:433" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="479:526" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="583:4512" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="921:1490" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="971:1060" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="1077:1446" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="1552:1959" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="1590:1679" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="1696:1927" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="2061:3113" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="2104:2156" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="2207:2270" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="2287:3103" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="2363:3063" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="2427:2781" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="2825:2986" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="3222:4274" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="3265:3317" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="3368:3430" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="3447:4252" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="3523:4212" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="3608:3950" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="3994:4155" ph="{...}" />
+            <marker date="1531796420641" expanded="true" signature="4332:4506" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/DataStructures/LinkedLists/DoubleLinkedList.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2175">
+          <caret line="145" column="39" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
+          <folding>
+            <marker date="1531796452845" expanded="true" signature="6:104" ph="..." />
+            <marker date="1531796452845" expanded="true" signature="136:4236" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="167:4234" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="228:708" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="362:403" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="771:1250" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="905:946" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="1328:1764" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="1465:1506" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="1595:1636" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="1841:2276" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="1978:2019" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="2108:2149" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="2344:3254" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="2480:2521" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="2589:2630" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="2701:2742" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="3315:4226" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="3451:3492" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="3560:3601" ph="{...}" />
+            <marker date="1531796452845" expanded="true" signature="3672:3713" ph="{...}" />
           </folding>
         </state>
       </provider>
