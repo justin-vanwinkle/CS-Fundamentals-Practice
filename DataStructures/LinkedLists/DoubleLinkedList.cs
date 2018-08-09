@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.ExceptionServices;
-using System.Threading;
-
-namespace DataStructures.LinkedList
+﻿namespace DataStructures.LinkedList
 {
     public class DoubleLinkedListNode<T>
     {
@@ -11,10 +6,6 @@ namespace DataStructures.LinkedList
         public DoubleLinkedListNode<T> Next { get; set; }
         public DoubleLinkedListNode<T> Previous { get; set; }
         
-        public DoubleLinkedListNode()
-        {            
-        }
-
         public DoubleLinkedListNode(T value)
         {
             Value = value;
@@ -38,6 +29,8 @@ namespace DataStructures.LinkedList
             {
                 head = newNode;
                 tail = head;
+                head.Next = tail;
+                tail.Previous = head;
             }
             else
             {
@@ -50,6 +43,10 @@ namespace DataStructures.LinkedList
                 newNode.Previous = tail;
                 previousHead.Previous = newNode;
             }
+
+            //set end pointers
+            head.Previous = tail;
+            tail.Next = head;
             
             count++;
         }
@@ -60,15 +57,22 @@ namespace DataStructures.LinkedList
             {
                 head = newNode;
                 tail = head;
+                head.Next = tail;
+                tail.Previous = head;
             }
             else
             {
-                // make nodes reference each other
-                tail.Next = newNode;
-                newNode.Previous = tail;
-                // now we have a new tail
+                var previousTail = tail;
                 tail = newNode;
+                
+                // make nodes reference each other
+                previousTail.Next = tail;
+                tail.Previous = previousTail;
             }
+
+            //set end pointers
+            head.Previous = tail;
+            tail.Next = head;
 
             count++;
         }
@@ -91,15 +95,22 @@ namespace DataStructures.LinkedList
                 {
                     if (node == existingNode)
                     {
-                        // existing node found.  update the list with newNode.
-                        var previousNode = existingNode.Previous;
-                        previousNode.Next = newNode;
-                        existingNode.Previous = newNode;
+                        // existing node found
+                        var rightNode = existingNode;
+                        var leftNode = existingNode.Previous;
+
+                        // point surrounding nodes to new node
+                        leftNode.Next = newNode;
+                        rightNode.Previous = newNode;
+
+                        // point new node to surrounding nodes
+                        newNode.Next = rightNode;
+                        newNode.Previous = leftNode;
                        
                         break;
                     }
 
-                    if (node.Next == null)
+                    if (node.Next == head)
                     {
                         // the node given was not in this list so we will do nothing
                         return;
@@ -131,15 +142,22 @@ namespace DataStructures.LinkedList
                     
                     if (node == existingNode)
                     {
-                        // existing node found.  update the list with newNode.
-                        var nextNode = existingNode.Next;
-                        nextNode.Previous = newNode;
-                        existingNode.Next = newNode;
+                        // existing node found.
+                        var rightNode = existingNode.Next;
+                        var leftNode = existingNode;
+                        
+                        // point surrounding nodes to new node
+                        rightNode.Previous = newNode;
+                        leftNode.Next = newNode;
+
+                        // point new node to surrounding nodes
+                        newNode.Previous = leftNode;
+                        newNode.Next = rightNode;
                        
                         break;
                     }
 
-                    if (node.Next == null)
+                    if (node.Next == head)
                     {
                         // the node given was not in this list so we will do nothing
                         return;
@@ -154,10 +172,23 @@ namespace DataStructures.LinkedList
 
         public void Remove(DoubleLinkedListNode<T> node)
         {
-            // move the references to bypass this node
-            node.Previous = node.Next;
-            node.Next = node.Previous;
-            count--;
+            var leftNode = node.Previous;
+            var rightNode = node.Next;
+
+            // point surrounding nodes to each other
+            leftNode.Next = rightNode;
+            rightNode.Previous = leftNode;
+            
+            if (node == head)
+            {
+                head = rightNode;
+            }
+            else if (node == tail)
+            {
+                tail = leftNode;
+            }
+
+            count--;            
         }
     }
 }
